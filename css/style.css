@@ -1,0 +1,48 @@
+/* imported Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+:root{
+    --green-dark: #00552d;
+    --primary-green: #00843d;
+    --green-light:#159447;
+    --gold: #ffbf00;
+    --gold-dark:#d99f00;
+    --off-white: #f8f7f2;
+    --text-dark: #171717;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    overflow-x:hidden;
+    background-color: var(--off-white);
+    color: var(--text-dark);
+    font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+h1, h2, h3{
+    font-family: 'Archivo Black', Arial, sans-serif;
+    line-height: 1.1;
+}
+
+
+img{
+    max-width: 100%;
+    display:block
+
+}
+
+ul {
+    list-style: none
+}
