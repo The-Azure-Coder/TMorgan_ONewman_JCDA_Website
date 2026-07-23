@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page | JCDA</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header class="header-bg">
       <div class="overlay"></div>
+      <img class="heart-plane" src="images/icons/heart_plane.png" alt="" />
       <div class="hero-content">
         <div class="nav-content">
           <div class="logo">
@@ -17,11 +18,12 @@
           </div>
           <nav class="nav-menu">
             <ul class="nav-list">
-              <li class="nav-items"><a class="nav-links" href="index.html">Home</a></li>
-              <li class="nav-items"><a class="nav-links" href="about.html">About</a></li>
-              <li class="nav-items"><a class="nav-links" href="events.html">Events</a></li>
-              <li class="nav-items"><a class="nav-links" href="projects-gallery.html">Projects</a></li>
-              <!-- <li class="nav-items"><button><a class="nav-links" href="#">Donate</a></button></li> -->
+              <li class="nav-items"><a class="nav-links active" href="index.html">Home</a></li>
+              <li class="nav-items"><a class="nav-links" href="#about">About</a></li>
+              <li class="nav-items"><a class="nav-links" href="#events">Events</a></li>
+              <li class="nav-items"><a class="nav-links" href="#featured-project">Projects</a></li>
+              <li class="nav-items"><a class="nav-links" href="#contact">Contact</a></li>
+              <li class="nav-items"><a class="nav-links donate-btn" href="#get-involved"><img src="images/icons/Heart.png" alt="">Donate</a></li>
             </ul>
           </nav>
         </div>
@@ -33,15 +35,15 @@
             meaningful outreach that creates lasting change.
           </p>
           <div class="hero-btn">
-            <a href="projects-gallery.html" class="btn primary-btn">Explore Projects</a>
-            <a href="events.html" class="btn secondary-btn">Upcoming Events</a>
+            <a href="#featured-project" class="btn primary-btn">Explore Projects <img src="images/icons/right_arrow_right.png" alt=""></a>
+            <a href="#events" class="btn secondary-btn"><img src="images/icons/Google Calendar.png" alt="">Upcoming Events</a>
           </div>
         </div>
 
         <div class="focus-area">
           <article class="focus-items focus-educate">
             <div class="focus-icon">
-              <img src="images/educate-icon.png" alt="educate icon" />
+              <img src="images/icons/educate-icon.png" alt="educate icon" />
             </div>
             <div class="focus-text">
               <h2>Educate</h2>
@@ -50,16 +52,16 @@
           </article>
           <article class="focus-items focus-empower">
             <div class="focus-icon">
-              <img src="images/empower-icon.png" alt="empower icon" />
+              <img src="images/icons/empower-icon.png" alt="empower icon" />
             </div>
             <div class="focus-text">
               <h2>Empower</h2>
-              <p>Strengthening youth and families</p>
+              <p>Building brighter futures</p>
             </div>
           </article>
           <article class="focus-items focus-environment">
             <div class="focus-icon">
-              <img src="images/environment-icon.png" alt="environment icon" />
+              <img src="images/icons/environment-icon.png" alt="environment icon" />
             </div>
             <div class="focus-text">
               <h2>Environment</h2>
@@ -71,7 +73,7 @@
       <div></div>
     </header>
     <main>
-      <section class="impact-sec">
+      <section class="impact-sec" id="impact">
         <div class="impact-content">
           <div class="impact-title">
             <h2>Our Impact</h2>
@@ -79,7 +81,7 @@
           <div class="impact-list">
             <article class="impact-items">
               <div class="impact-icon green-icon">
-                <img src="images/tree-icon.png" alt="" />
+                <img src="images/icons/trees-planted-icon.png" alt="" />
               </div>
               <div class="impact-text">
                 <h3>8,000+</h3>
@@ -88,41 +90,31 @@
             </article>
 
             <article class="impact-items">
-              <div class="impact-icon green-icon-color">
-                <img src="images/youth-icon.png" alt="" />
+              <div class="impact-icon gold-icon-color">
+                <img src="images/icons/people-white-icon.png" alt="" />
               </div>
               <div class="impact-text">
-                <h3>45,000+</h3>
-                <p>Youths Trained</p>
+                <h3>5,000+</h3>
+                <p>Youth Trained</p>
+              </div>
+            </article>
+
+            <article class="impact-items">
+              <div class="impact-icon green-icon-color">
+                <img src="images/icons/families-assisted-icon.png" alt="" />
+              </div>
+              <div class="impact-text">
+                <h3>8,000+</h3>
+                <p>Families Assisted</p>
               </div>
             </article>
 
             <article class="impact-items">
               <div class="impact-icon gold-icon-color">
-                <img src="images/youth-icon.png" alt="" />
+                <img src="images/icons/Downtown_white.png" alt="" />
               </div>
               <div class="impact-text">
-                <h3>45,000+</h3>
-                <p>Youths Trained</p>
-              </div>
-            </article>
-
-            <article class="impact-items">
-              <div class="impact-icon green-icon-color">
-                <img src="images/youth-icon.png" alt="" />
-              </div>
-              <div class="impact-text">
-                <h3>23,000+</h3>
-                <p>Families Asisted</p>
-              </div>
-            </article>
-
-            <article class="impact-items">
-              <div class="impact-icon green-icon-color">
-                <img src="images/community-center-icon.png" alt="" />
-              </div>
-              <div class="impact-text">
-                <h3>50+</h3>
+                <h3>24+</h3>
                 <p>Communities Reached</p>
               </div>
             </article>
@@ -130,7 +122,7 @@
         </div>
       </section>
 
-      <section class="events-section">
+      <section class="events-section" id="events">
         <div class="section-content">
 
           <div class="section-heading">
@@ -141,7 +133,7 @@
           <div class="event_list">
             <article class="event-card">
               <div class="event-image">
-                <img src="images/tree_planting" alt="Planting trees in a community" />
+                <img src="images/community-tree-planting.png" alt="Planting trees in a community" />
 
                 <div class="event-date">
                   <span>24</span>
@@ -153,13 +145,13 @@
                 <h3>Community Tree Planting</h3>
                 <p class="event-location">Westmorland</p>
                 <p class="event-time">8:00 AM - 12:00 PM</p>
-                <a href="events.html" class="learn-link">Learn More</a>
+                <a href="#events" class="learn-link">Learn More</a>
               </div>
             </article>
 
             <article class="event-card">
               <div class="event-image">
-                <img src="images/beach_clean_up.png" alt="volunteers cleaning up beach" />
+                <img src="images/beach-cleanup.png" alt="volunteers cleaning up beach" />
 
                 <div class="event-date">
                   <span>06</span>
@@ -171,12 +163,12 @@
                 <h3>Beach Clean-Up</h3>
                 <p class="event-location">Portland</p>
                 <p class="event-time">6:00 AM - 8:00 PM</p>
-                <a href="events.html" class="learn-link">Learn More</a>
+                <a href="#events" class="learn-link">Learn More</a>
               </div>
             </article>
             <article class="event-card">
               <div class="event-image">
-                <img src="images/health_day.png" alt="Community health day" />
+                <img src="images/community-health-day.png" alt="Community health day" />
 
                 <div class="event-date">
                   <span>15</span>
@@ -188,16 +180,16 @@
                 <h3>Community Health day</h3>
                 <p class="event-location">Mandeville, Manchester</p>
                 <p class="event-time">8:30 AM - 5:00 PM</p>
-                <a href="events.html" class="learn-link">Learn More</a>
+                <a href="#events" class="learn-link">Learn More</a>
               </div>
             </article>
             <article class="event-card">
               <div class="event-image">
-                <img src="images/youth_workshop.png" alt="Planting trees in a community" />
+                <img src="images/youth-leadership-workshop.jpg" alt="Youth leadership workshop" />
 
                 <div class="event-date">
                   <span>24</span>
-                  <small>JUN</small>
+                  <small>JUL</small>
                 </div>
               </div>
 
@@ -205,27 +197,27 @@
                 <h3>Youth Leadership Workshop</h3>
                 <p class="event-location">Kingston</p>
                 <p class="event-time">3:00 AM - 5:00 PM</p>
-                <a href="events.html" class="learn-link">Learn More</a>
+                <a href="#events" class="learn-link">Learn More</a>
               </div>
             </article>
           </div>
         </div>
 
       </section>
-      <section class="featured-section">
+      <section class="featured-section" id="featured-project">
         <div class="section-content">
             <h2>Featured Project</h2>
             <div class="heading-underline"></div>
         <article class="featured-project">
             <div class="featured-image">
-                <img src="images/reverton-learning-centre.png" alt="Riverton learning centre building">
+                <img src="images/riverview-learning-centre.jpg" alt="Riverton learning centre building">
             </div>
             <div class="featured-content">
                 <p class="featured-label">
                     building Better Tomorrows
                 </p>
 
-                <h3>Riverton Learnin Centre</h3>
+                <h3>Riverton Learning Centre</h3>
 
                 <p class="featured-description">
                     JCDA works to empower communities through education,
@@ -235,7 +227,7 @@
 
                 <div class="project-stat-list">
                     <article class="project-stat-items">
-                        <img src="images/book-icon.png" alt="">
+                        <img src="images/icons/students-supported-icon.png" alt="">
 
                         <div>
                             <h4>300+</h4>
@@ -244,7 +236,7 @@
                     </article>
 
                      <article class="project-stat-items">
-                        <img src="images/volunteer-icon.png" alt="">
+                        <img src="images/icons/volunteers-icon.png" alt="">
 
                         <div>
                             <h4>50+</h4>
@@ -253,15 +245,15 @@
                     </article>
 
                     <article class="project-stat-items">
-                        <img src="images/building-icon.png" alt="">
+                        <img src="images/icons/communities-reached-icon.png" alt="">
 
                         <div>
                             <h4>5</h4>
                             <p>Communities Reached</p>
                         </div>
                     </article>
-                    <a href="projects-gallery.html" class="btn secondary-btn project-btn">
-                        view project
+                    <a href="#featured-project" class="btn secondary-btn project-btn">
+                        view project <img src="images/icons/black_arrow.png" alt="">
                     </a>
                     
                 </div>
@@ -271,7 +263,7 @@
         </div>
     </section>
 
-    <section class="involved-section">
+    <section class="involved-section" id="get-involved">
         <div class="section-content involved-content">
             <div class="involved-heading">
                 <h2>Get Involved</h2>
@@ -281,12 +273,12 @@
             <div class="involved-list">
                 <article class="involved-items">
                     <div class="involved-icon">
-                        <img src="images/donate-icon.png" alt="">
+                        <img src="images/icons/donate-icon.png" alt="">
                     </div>
                     <div class="involved-text">
                         <h3>Donate</h3>
                         <p>Your support makes a real difference</p>
-                        <a href="contact.html" class="involved-link">
+                        <a href="#contact" class="involved-link">
                             Donate Now
                         </a>
                     </div>
@@ -294,7 +286,7 @@
 
                 <article class="involved-items">
                         <div class="involved-icon">
-                            <img src="images/volunteer-hands-icon.png"
+                            <img src="images/icons/volunteer-hands-icon.png"
                                 alt="">
                         </div>
 
@@ -302,15 +294,28 @@
                             <h3>Volunteer</h3>
                             <p>Give your time and change lives.</p>
 
-                            <a href="contact.html" class="involved-link">
+                            <a href="#contact" class="involved-link">
                                 Join Us
-                                <span aria-hidden="true">→</span>
                             </a>
                         </div>
                 </article>
                 <article class="involved-items">
                         <div class="involved-icon">
-                            <img src="images/partner-icon.png"
+                            <img src="images/icons/Calendar.png" alt="">
+                        </div>
+
+                        <div class="involved-text">
+                            <h3>Join an Event</h3>
+                            <p>Be actively involved in change</p>
+
+                            <a href="#events" class="involved-link">
+                                View Events
+                            </a>
+                        </div>
+                </article>
+                <article class="involved-items">
+                        <div class="involved-icon">
+                            <img src="images/icons/people-white-icon.png"
                                 alt="">
                         </div>
 
@@ -318,9 +323,8 @@
                             <h3>Partner With Us</h3>
                             <p>Work with us to build stronger communities.</p>
 
-                            <a href="contact.html" class="involved-link">
+                            <a href="#contact" class="involved-link">
                                 Join Us
-                                <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </article>
@@ -339,7 +343,7 @@
                 </a>
             </div>
 
-            <div class="footer-items">
+            <div class="footer-items" id="about">
                 <h2>About JCDA</h2>
                 <p>
                     Dedicated to building strong comunities across Jamaica through education, empowement and community outreach
@@ -347,20 +351,20 @@
                 </p>
 
                 <div class="social-links">
-                    <a href="">Facebook</a>
-                    <a href="">Instagram</a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="images/icons/Facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="images/icons/Instagram Circle.png" alt="Instagram"></a>
                 </div>
 
             </div>
 
-            <div class="footer-items">
+            <div class="footer-items" id="contact">
                 <h2>Quick Links</h2>
 
                 <ul class="footer-list">
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="projects-gallery.html">About us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#featured-project">Projects</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
 
                 </ul>
             </div>
@@ -369,18 +373,21 @@
                 <h2>Contact Us</h2>
                 <address class="contact-list">
                     <p>
+                        <img src="images/icons/Phone.png" alt="Phone">
                         <a href="tel:8765432415">
                             876 543-2415
                         </a>
                     </p>
 
                     <p>
+                        <img src="images/icons/Email.png" alt="Email">
                         <a href="mailto:jcda@gmail.com">
-                            jcd@gmail.com
+                            jcda@gmail.com
                         </a>
                     </p>
 
                     <p>
+                        <img src="images/icons/Location_yello.png" alt="Location">
                         123 camp road <br>
                         kingston 11, Jamaica
 
