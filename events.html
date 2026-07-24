@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore upcoming community events hosted by the Jamaica Community Development Association.">
+    <title>Events | JCDA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="events-page">
+    <header class="header-bg events-header-bg">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <div class="nav-content">
+                <div class="logo"><a href="index.html"><img src="images/jcda-logo.png"
+                            alt="Jamaica Community Development Association logo"></a></div>
+                <nav class="nav-menu" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li class="nav-items"><a class="nav-links" href="index.html">Home</a></li>
+                        <li class="nav-items"><a class="nav-links" href="about.html">About Us</a></li>
+                        <li class="nav-items"><a class="nav-links active" href="events.html">Events</a></li>
+                        <li class="nav-items"><a class="nav-links" href="projects-gallery.html">Projects</a></li>
+                        <li class="nav-items"><a class="nav-links" href="contact.html">Contact</a></li>
+                        <li class="nav-items"><a class="btn btn primary-btn" href="contact.html"><img src="images/icons/Heart.png" alt="">Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="events-hero">
+                <div class="events-hero-text">
+                    <h1>Community<br>Events &amp; Activities</h1>
+                    <h2>Stronger Together, Jamaica Forever</h2>
+                    <p>Join JCDA's events and activities across Jamaica. Together, we build stronger communities,
+                        empower youth, protect our environment and create lasting change.</p>
+                    <div class="hero-btn">
+                        <a href="contact.html" class="btn primary-btn">Register Now <img
+                                src="images/icons/right_arrow_right.png" alt=""></a>
+                        <a href="contact.html" class="btn secondary-btn">Volunteer With Us</a>
+                    </div>
+                </div>
+                <div class="event-theme-content">
+                    <h2>Event Themes</h2>
+                    <article class="event-theme-items event-theme-education">
+                        <div class="event-theme-icon"><img src="images/icons/educate-icon.png" alt=""></div>
+                        <div class="event-theme-text">
+                            <h3>Education</h3>
+                            <p>Building brighter futures</p>
+                        </div>
+                    </article>
+                    <article class="event-theme-items event-theme-empowerment">
+                        <div class="event-theme-icon"><img src="images/icons/empower-icon.png" alt=""></div>
+                        <div class="event-theme-text">
+                            <h3>Empowerment</h3>
+                            <p>Empowering youth and families</p>
+                        </div>
+                    </article>
+                    <article class="event-theme-items event-theme-environment">
+                        <div class="event-theme-icon"><img src="images/icons/environment-icon.png" alt=""></div>
+                        <div class="event-theme-text">
+                            <h3>Environment</h3>
+                            <p>Protecting our island home</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-event-section">
+            <div class="section-content">
+                <div class="section-heading">
+                    <h2>Featured Event</h2>
+                    <div class="heading-underline"></div>
+                </div>
+                <article class="featured-event-card" data-category="environment">
+                    <div class="featured-event-image"><img src="images/community-tree-planting.png"
+                            alt="Volunteer planting a young tree">
+                        <div class="featured-event-date"><span>28</span><small>Jun</small></div>
+                    </div>
+                    <div class="featured-event-content">
+                        <p class="event-category">Environment</p>
+                        <h3>National Tree Planting Day</h3>
+                        <div class="featured-event-details">
+                            <p><img src="images/icons/Calendar.png" alt=""> Saturday, June 28, 2026</p>
+                            <p><img src="images/icons/Pocket Watch.png" alt=""> 8:00 AM - 12:00 PM</p>
+                            <p><img src="images/icons/Location.png" alt=""> Hope Botanical Gardens, Kingston</p>
+                        </div>
+                        <p class="featured-event-description">Help us green Jamaica. Join volunteers across the island
+                            as we plant native trees, restore green spaces and promote a healthier environment for
+                            future generations.</p>
+                        <div class="featured-event-footer">
+                            <div class="featured-event-stats">
+                                <article class="event-stat-items"><img src="images/icons/volunteers-icon.png" alt="">
+                                    <div>
+                                        <h4>120+</h4>
+                                        <p>Volunteers Registered</p>
+                                    </div>
+                                </article>
+                                <article class="event-stat-items"><img src="images/icons/trees-planted-icon.png" alt="">
+                                    <div>
+                                        <h4>3,000+</h4>
+                                        <p>Trees Target</p>
+                                    </div>
+                                </article>
+                                <article class="event-stat-items"><img src="images/icons/communities-reached-icon.png"
+                                        alt="">
+                                    <div>
+                                        <h4>12</h4>
+                                        <p>Communities Involved</p>
+                                    </div>
+                                </article>
+                            </div><a href="events.html" class="btn secondary-btn">View Details <img
+                                    src="images/icons/black_arrow.png" alt=""></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="event-filter-section">
+            <div class="section-content event-filter-content">
+                <div class="event-search"><label for="event-search" class="screen-filter">Search events</label><input type="search" id="event-search" placeholder="Search events..."></div>
+                <div class="event-filter-list">
+                    <button type="button" class="filter-btn active" data-category="all">All Events</button>
+                    <button type="button" class="filter-btn" data-category="education">Education</button>
+                    <button type="button" class="filter-btn" data-category="youth">Youth</button>
+                    <button type="button" class="filter-btn" data-category="environment">Environment</button>
+                    <button type="button" class="filter-btn" data-category="outreach">Outreach</button>
+                    <button type="button" class="filter-btn" data-category="health">Health</button>
+                </div>
+                <div class="event-sort"><label for="event-sort" class="screen-filter"">Sort events</label><select id="event-sort"><option value="newest">Sort by: Newest</option><option value="oldest">Sort by: Oldest</option><option value="title">Sort by: Title</option></select></div>
+            </div>
+        </section>
+
+        <section class="upcoming-events-section" id="upcoming-events">
+            <div class="section-content">
+                <div class="section-heading">
+                    <h2>Upcoming Events</h2>
+                    <div class="heading-underline"></div>
+                </div>
+                <div class="upcoming-event-list">
+                    <article class="upcoming-event-card" data-category="outreach">
+                        <div class="upcoming-event-image"><img src="images/beach-cleanup.png"
+                                alt="Volunteers cleaning a community beach">
+                            <div class="event-date"><span>07</span><small>Jun</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Outreach</p>
+                            <h3>Community Clean-Up</h3>
+                            <p class="event-description">Join us as we clean beaches and public spaces for a cleaner
+                                Jamaica.</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 7:00 AM - 11:00 AM
+                            </p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Portmore, St.
+                                Catherine</p>
+                        </div>
+                    </article>
+                    <article class="upcoming-event-card" data-category="youth">
+                        <div class="upcoming-event-image"><img src="images/youth-leadership-workshop.jpg"
+                                alt="Young adults attending a leadership workshop">
+                            <div class="event-date"><span>14</span><small>Jun</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Youth</p>
+                            <h3>Youth Leadership Workshop</h3>
+                            <p class="event-description">Empowering young leaders with skills to lead and create
+                                positive change.</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 9:00 AM - 1:00 PM</p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Spanish Town, St.
+                                Catherine</p>
+                        </div>
+                    </article>
+                    <article class="upcoming-event-card" data-category="education">
+                        <div class="upcoming-event-image"><img src="images/back_to_school.jpg"
+                                alt="School bags and learning supplies">
+                            <div class="event-date"><span>21</span><small>Jun</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Education</p>
+                            <h3>Back to School Drive</h3>
+                            <p class="event-description">Providing school supplies to students in need across Jamaica.
+                            </p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 10:00 AM - 2:00 PM
+                            </p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Kingston, St. Andrew
+                            </p>
+                        </div>
+                    </article>
+                    <article class="upcoming-event-card" data-category="health">
+                        <div class="upcoming-event-image"><img src="images/community-health-day.png"
+                                alt="Community member receiving a health screening">
+                            <div class="event-date"><span>05</span><small>Jul</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Health</p>
+                            <h3>Community Health Fair</h3>
+                            <p class="event-description">Free health screenings, wellness education and healthy living
+                                tips.</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 8:00 AM - 2:00 PM</p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Montego Bay, St.
+                                James</p>
+                        </div>
+                    </article>
+                    <article class="upcoming-event-card" data-category="environment">
+                        <div class="upcoming-event-image"><img src="images/painit_labour_day.jpg"
+                                alt="Volunteers restoring a coastal area">
+                            <div class="event-date"><span>12</span><small>Jul</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Environment</p>
+                            <h3>Community Painting</h3>
+                            <p class="event-description">Painting improvish communities and public housing
+                            </p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 7:30 AM - 12:00 PM
+                            </p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Falmouth, Trelawny
+                            </p>
+                        </div>
+                    </article>
+                    <article class="upcoming-event-card" data-category="youth">
+                        <div class="upcoming-event-image"><img src="images/women_business_event.jpg"
+                                alt="Woman presenting at a business seminar">
+                            <div class="event-date"><span>19</span><small>Jul</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Empowerment</p>
+                            <h3>Women in Business Seminar</h3>
+                            <p class="event-description">Inspiring and equipping women to start and grow successful
+                                businesses.</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 9:30 AM - 1:00 PM</p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Kingston, St. Andrew
+                            </p>
+                        </div>
+                    </article>
+                     <article class="upcoming-event-card" data-category="youth">
+                        <div class="upcoming-event-image"><img src="images/road_const.jpg"
+                                alt="Woman presenting at a business seminar">
+                            <div class="event-date"><span>19</span><small>Jul</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Outreach</p>
+                            <h3>Road Construction</h3>
+                            <p class="event-description"> Asisting in Labouring of Road construction</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 9:30 AM - 1:00 PM</p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Kingston, St. Andrew
+                            </p>
+                        </div>
+                    </article>
+                     <article class="upcoming-event-card" data-category="youth">
+                        <div class="upcoming-event-image"><img src="images/coastal_cleanup.jpg"
+                                alt="Woman presenting at a business seminar">
+                            <div class="event-date"><span>19</span><small>Jul</small></div>
+                        </div>
+                        <div class="upcoming-event-content">
+                            <p class="event-category">Environment</p>
+                            <h3>Coastal Restoration</h3>
+                            <p class="event-description">Help in the restoration of natural resources</p>
+                            <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 9:30 AM - 1:00 PM</p>
+                            <p class="event-location"><img src="images/icons/Location.png" alt=""> Kingston, St. Andrew
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="event-list-btn"><a href="#upcoming-events" class="outline-btn">View All Events <img
+                            src="images/icons/Right Arrow_green.png" alt=""></a></div>
+            </div>
+        </section>
+
+        <section class="event-impact-section">
+            <div class="section-content event-impact-content">
+                <h2>Event Impact at a Glance</h2>
+                <div class="event-impact-list">
+                    <article class="event-impact-items">
+                        <div class="impact-icon green-icon"><img src="images/icons/Calendar.png" alt=""></div>
+                        <div>
+                            <h3>18+</h3>
+                            <p>Upcoming Events</p>
+                        </div>
+                    </article>
+                    <article class="event-impact-items">
+                        <div class="impact-icon gold-icon-color"><img src="images/icons/volunteer-hands-icon.png"
+                                alt=""></div>
+                        <div>
+                            <h3>250+</h3>
+                            <p>Volunteers Needed</p>
+                        </div>
+                    </article>
+                    <article class="event-impact-items">
+                        <div class="impact-icon green-icon"><img src="images/icons/Location_yello.png" alt=""></div>
+                        <div>
+                            <h3>12</h3>
+                            <p>Parishes Reached</p>
+                        </div>
+                    </article>
+                    <article class="event-impact-items">
+                        <div class="impact-icon gold-icon-color"><img src="images/icons/communities-reached-icon.png"
+                                alt=""></div>
+                        <div>
+                            <h3>25+</h3>
+                            <p>Communities Impacted</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="involved-section">
+            <div class="section-content involved-content">
+                <div class="involved-heading">
+                    <h2>Get Involved</h2>
+                    <div class="heading-underline"></div>
+                </div>
+                <div class="involved-list">
+                    <article class="involved-items">
+                        <div class="involved-icon"><img src="images/icons/donate-icon.png" alt=""></div>
+                        <div class="involved-text">
+                            <h3>Donate</h3>
+                            <p>Your support makes a real difference.</p><a href="contact.html"
+                                class="involved-link">Donate Now</a>
+                        </div>
+                    </article>
+                    <article class="involved-items">
+                        <div class="involved-icon"><img src="images/icons/volunteer-hands-icon.png" alt=""></div>
+                        <div class="involved-text">
+                            <h3>Volunteer</h3>
+                            <p>Give your time and change lives.</p><a href="contact.html" class="involved-link">Join
+                                Us</a>
+                        </div>
+                    </article>
+                    <article class="involved-items">
+                        <div class="involved-icon"><img src="images/icons/Calendar.png" alt=""></div>
+                        <div class="involved-text">
+                            <h3>Join an Event</h3>
+                            <p>Give your time and change lives.</p><a href="#upcoming-events" class="involved-link">View
+                                Events</a>
+                        </div>
+                    </article>
+                    <article class="involved-items">
+                        <div class="involved-icon"><img src="images/icons/people-white-icon.png" alt=""></div>
+                        <div class="involved-text">
+                            <h3>Partner With Us</h3>
+                            <p>Give your time and change lives.</p><a href="contact.html" class="involved-link">Join
+                                Us</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="section-content footer-content">
+            <div class="footer-logo"><a href="index.html"><img src="images/jcda-logo.png"
+                        alt="Jamaica Community Development Association logo"></a></div>
+            <div class="footer-items">
+                <h2>About JCDA</h2>
+                <p>Dedicated to building strong communities across Jamaica.</p>
+                <div class="social-links"><a href="https://www.facebook.com/" target="_blank"
+                        rel="noopener noreferrer"><img src="images/icons/Facebook.png" alt="Facebook"></a><a
+                        href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img
+                            src="images/icons/Instagram Circle.png" alt="Instagram"></a></div>
+            </div>
+            <div class="footer-items">
+                <h2>Quick Links</h2>
+                <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="projects-gallery.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>Contact Us</h2>
+                <address class="contact-list">
+                    <p><img src="images/icons/Phone.png" alt="Phone"><a href="tel:1876565877">876 565-877</a></p>
+                    <p><img src="images/icons/Email.png" alt="Email"><a href="mailto:jcda@mail.com">jcda@mail.com</a>
+                    </p>
+                    <p><img src="images/icons/Location_yello.png" alt="Location">123 Worth Road<br>Kingston 11, Jamaica
+                    </p>
+                </address>
+            </div>
+            <div class="footer-items">
+                <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter.</p>
+                <form class="newsletter-form"><label for="newsletter-email" class="screen-filter">Email
+                        address</label><input type="email" id="newsletter-email" placeholder="Enter your email"
+                        required><button type="submit" class="subscribe-btn">Subscribe</button></form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jamaica Community Development Association. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js?v=2"></script>
+</body>
+
+</html>
