@@ -1,0 +1,5 @@
+ITT-208 Major Project - Hosted Website
+Student 1 : Tyrese Morgan
+Student 2 : Osha Newman
+Hosting service: vercel
+Website Url: https://t-morgan-o-newman-jcda-website.vercel.app/
