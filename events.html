@@ -8,6 +8,7 @@
         content="Explore upcoming community events hosted by the Jamaica Community Development Association.">
     <title>Events | JCDA</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/jcda-logo.png" type="image/png">
 </head>
 
 <body class="events-page">
@@ -76,7 +77,7 @@
                     <h2>Featured Event</h2>
                     <div class="heading-underline"></div>
                 </div>
-                <article class="featured-event-card" data-category="environment">
+                <article class="featured-event-card" data-category="environment" data-date="2026-06-28">
                     <div class="featured-event-image"><img src="images/community-tree-planting.png"
                             alt="Tree planting volunteers">
                         <div class="featured-event-date"><span>28</span><small>Jun</small></div>
@@ -124,17 +125,17 @@
         <section class="event-filter-section">
             <div class="section-content event-filter-content">
                 <div class="event-search"><label for="event-search" class="screen-filter">Search events</label><input
-                        type="search" id="event-search" placeholder="Search events..."></div>
+                        type="search" id="event-search" name="event-search" placeholder="Search events..."></div>
                 <div class="event-filter-list">
                     <button type="button" class="filter-btn active" data-category="all">All Events</button>
                     <button type="button" class="filter-btn" data-category="education">Education</button>
                     <button type="button" class="filter-btn" data-category="youth">Youth</button>
+                    <button type="button" class="filter-btn" data-category="empowerment">Empowerment</button>
                     <button type="button" class="filter-btn" data-category="environment">Environment</button>
                     <button type="button" class="filter-btn" data-category="outreach">Outreach</button>
                     <button type="button" class="filter-btn" data-category="health">Health</button>
                 </div>
-                <div class="event-sort"><label for="event-sort" class="screen-filter"">Sort events</label><select id="
-                        event-sort">
+                <div class="event-sort"><label for="event-sort" class="screen-filter">Sort events</label><select id="event-sort" name="event-sort">
                         <option value="newest">Sort by: Newest</option>
                         <option value="oldest">Sort by: Oldest</option>
                         <option value="title">Sort by: Title</option></select></div>
@@ -148,7 +149,7 @@
                     <div class="heading-underline"></div>
                 </div>
                 <div class="upcoming-event-list">
-                    <article class="upcoming-event-card" data-category="outreach">
+                    <article class="upcoming-event-card" data-category="outreach" data-date="2026-06-07">
                         <div class="upcoming-event-image"><img src="images/beach-cleanup-jm.jpg"
                                 alt="Beach cleanup volunteers">
                             <div class="event-date"><span>07</span><small>Jun</small></div>
@@ -164,7 +165,7 @@
                                 Catherine</p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="youth">
+                    <article class="upcoming-event-card" data-category="youth" data-date="2026-06-14">
                         <div class="upcoming-event-image"><img src="images/sports-development.jpg"
                                 alt="Youth sports development">
                             <div class="event-date"><span>14</span><small>Jun</small></div>
@@ -179,7 +180,7 @@
                                 Catherine</p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="education">
+                    <article class="upcoming-event-card" data-category="education" data-date="2026-06-21">
                         <div class="upcoming-event-image"><img src="images/school-library.jpg"
                                 alt="School library project">
                             <div class="event-date"><span>21</span><small>Jun</small></div>
@@ -195,7 +196,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="health">
+                    <article class="upcoming-event-card" data-category="health" data-date="2026-07-05">
                         <div class="upcoming-event-image"><img src="images/women-event.jpg"
                                 alt="Community event attendees">
                             <div class="event-date"><span>05</span><small>Jul</small></div>
@@ -210,7 +211,7 @@
                                 James</p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="environment">
+                    <article class="upcoming-event-card" data-category="environment" data-date="2026-07-12">
                         <div class="upcoming-event-image"><img src="images/community-painting.jpg"
                                 alt="Community painting volunteers">
                             <div class="event-date"><span>12</span><small>Jul</small></div>
@@ -218,7 +219,7 @@
                         <div class="upcoming-event-content">
                             <p class="event-category">Environment</p>
                             <h3>Community Painting</h3>
-                            <p class="event-description">Painting improvish communities and public housing
+                            <p class="event-description">Painting and improving community spaces and public housing.
                             </p>
                             <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 7:30 AM - 12:00 PM
                             </p>
@@ -226,7 +227,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="youth">
+                    <article class="upcoming-event-card" data-category="empowerment" data-date="2026-07-19">
                         <div class="upcoming-event-image"><img src="images/women-event.jpg"
                                 alt="Women at a community event">
                             <div class="event-date"><span>19</span><small>Jul</small></div>
@@ -241,7 +242,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="youth">
+                    <article class="upcoming-event-card" data-category="outreach" data-date="2026-07-19">
                         <div class="upcoming-event-image"><img src="images/youth-training.jpg"
                                 alt="Youth construction training">
                             <div class="event-date"><span>19</span><small>Jul</small></div>
@@ -249,13 +250,13 @@
                         <div class="upcoming-event-content">
                             <p class="event-category">Outreach</p>
                             <h3>Road Construction</h3>
-                            <p class="event-description"> Asisting in Labouring of Road construction</p>
+                            <p class="event-description">Supporting road construction work in the community.</p>
                             <p class="event-time"><img src="images/icons/Pocket Watch.png" alt=""> 9:30 AM - 1:00 PM</p>
                             <p class="event-location"><img src="images/icons/Location.png" alt=""> Kingston, St. Andrew
                             </p>
                         </div>
                     </article>
-                    <article class="upcoming-event-card" data-category="youth">
+                    <article class="upcoming-event-card" data-category="environment" data-date="2026-07-19">
                         <div class="upcoming-event-image"><img src="images/coastal-cleanup.jpg"
                                 alt="Coastal cleanup volunteers">
                             <div class="event-date"><span>19</span><small>Jul</small></div>
@@ -270,8 +271,6 @@
                         </div>
                     </article>
                 </div>
-                <div class="event-list-btn"><a href="#upcoming-events" class="outline-btn">View All Events <img
-                            src="images/icons/Right Arrow_green.png" alt=""></a></div>
             </div>
         </section>
 
@@ -302,7 +301,7 @@
                         </div>
                     </article>
                     <article class="event-impact-items">
-                        <div class="impact-icon gold-icon-color"><img src="images/icons/communities-reached-icon.png"
+                        <div class="impact-icon gold-icon-color"><img src="images/icons/Downtown_white.png"
                                 alt=""></div>
                         <div>
                             <h3>25+</h3>
@@ -364,9 +363,8 @@
             <div class="footer-items">
                 <h2>About JCDA</h2>
                 <p>Dedicated to building strong communities across Jamaica.</p>
-                <div class="social-links"><a href="https://www.facebook.com/" target="_blank"
-                        rel="noopener noreferrer"><img src="images/icons/Facebook.png" alt="Facebook"></a><a
-                        href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img
+                <div class="social-links"><a
+                        href="https://www.instagram.com/jcda_project/" target="_blank" rel="noopener noreferrer" aria-label="JCDA Instagram page"><img
                             src="images/icons/Instagram Circle.png" alt="Instagram"></a></div>
             </div>
             <div class="footer-items">
@@ -392,8 +390,8 @@
                 <h2>Newsletter</h2>
                 <p>Subscribe to our newsletter.</p>
                 <form class="newsletter-form"><label for="newsletter-email" class="screen-filter">Email
-                        address</label><input type="email" id="newsletter-email" placeholder="Enter your email"
-                        required><button type="submit" class="subscribe-btn">Subscribe</button></form>
+                        address</label><input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email"
+                        required><button type="submit" class="subscribe-btn">Subscribe</button><p class="form-feedback" aria-live="polite"></p></form>
             </div>
         </div>
         <div class="footer-bottom">

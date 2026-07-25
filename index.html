@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page | JCDA</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/jcda-logo.png" type="image/png" />
   </head>
 
   <body>
@@ -19,7 +20,7 @@
           <nav class="nav-menu">
             <ul class="nav-list">
               <li class="nav-items"><a class="nav-links active" href="index.html">Home</a></li>
-              <li class="nav-items"><a class="nav-links" href="about.html">About</a></li>
+              <li class="nav-items"><a class="nav-links" href="about.html">About Us</a></li>
               <li class="nav-items"><a class="nav-links" href="events.html">Events</a></li>
               <li class="nav-items"><a class="nav-links" href="projects-gallery.html">Projects</a></li>
               <li class="nav-items"><a class="nav-links" href="contact.html">Contact</a></li>
@@ -31,7 +32,7 @@
           <h1 class="hero-text">Building Stronger Communities <span>Across Jamaica</span></h1>
           <div class="underline"></div>
           <p>
-            JCDA works to empower communities through education, youth development, environmental products, and
+            JCDA works to empower communities through education, youth development, environmental projects, and
             meaningful outreach that creates lasting change.
           </p>
           <div class="hero-btn">
@@ -217,12 +218,11 @@
                     building Better Tomorrows
                 </p>
 
-                <h3>Riverton Learning Centre</h3>
+                <h3>Riverton Meadows Community Centre Upgrade</h3>
 
                 <p class="featured-description">
-                    JCDA works to empower communities through education,
-                    youth development, environmental projects and meaningful
-                    outreach that creates lasting change.
+                    Renovating a St. Andrew community centre with improved meeting
+                    rooms, accessible facilities and a small computer lab.
                 </p>
 
                 <div class="project-stat-list">
@@ -245,7 +245,7 @@
                     </article>
 
                     <article class="project-stat-items">
-                        <img src="images/icons/communities-reached-icon.png" alt="">
+                        <img src="images/icons/Downtown_white.png" alt="">
 
                         <div>
                             <h4>5</h4>
@@ -278,7 +278,7 @@
                     <div class="involved-text">
                         <h3>Donate</h3>
                         <p>Your support makes a real difference</p>
-                        <a href="#contact" class="involved-link">
+                        <a href="contact.html" class="involved-link">
                             Donate Now
                         </a>
                     </div>
@@ -294,7 +294,7 @@
                             <h3>Volunteer</h3>
                             <p>Give your time and change lives.</p>
 
-                            <a href="#contact" class="involved-link">
+                            <a href="contact.html" class="involved-link">
                                 Join Us
                             </a>
                         </div>
@@ -323,7 +323,7 @@
                             <h3>Partner With Us</h3>
                             <p>Work with us to build stronger communities.</p>
 
-                            <a href="#contact" class="involved-link">
+                            <a href="contact.html" class="involved-link">
                                 Join Us
                             </a>
                         </div>
@@ -333,8 +333,6 @@
 
     </section>
     </main>
-
-
     <footer class="footer-section">
         <div class="section-content footer-content">
             <div class="footer-logo">
@@ -346,13 +344,12 @@
             <div class="footer-items" id="about">
                 <h2>About JCDA</h2>
                 <p>
-                    Dedicated to building strong comunities across Jamaica through education, empowement and community outreach
+                    Dedicated to building strong communities across Jamaica through education, empowerment and community outreach
 
                 </p>
 
                 <div class="social-links">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="images/icons/Facebook.png" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="images/icons/Instagram Circle.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/jcda_project/" target="_blank" rel="noopener noreferrer" aria-label="JCDA Instagram page"><img src="images/icons/Instagram Circle.png" alt="Instagram"></a>
                 </div>
 
             </div>
@@ -361,10 +358,10 @@
                 <h2>Quick Links</h2>
 
                 <ul class="footer-list">
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#events">Events</a></li>
-                        <li><a href="#featured-project">Projects</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects-gallery.html">Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
 
                 </ul>
             </div>
@@ -400,24 +397,26 @@
                 <p>Subscribe to our newsletter </p>
                     <form class="newsletter-form">
                         <label for="newsletter-email">
-                            email address
+                            Email address
                         </label>
 
-                        <input type="email" name="" id="" placeholder="Enter your email address">
+                        <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Enter your email address">
 
                         <button type="submit" class="subscribe-btn">
                             Subscribe
                         </button>
+                        <p class="form-feedback" aria-live="polite"></p>
                     </form>
             </div>
 
         </div>
         <div class="footer-bottom">
             <p>
-                &copy; 2026 Jamaica Communication Development Association All reight reserved
+                &copy; 2026 Jamaica Community Development Association All rights reserved
             </p>
         </div>
         
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

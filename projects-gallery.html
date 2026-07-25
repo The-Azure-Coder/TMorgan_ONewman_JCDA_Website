@@ -7,6 +7,7 @@
     <meta name="description" content="Explore JCDA projects building stronger communities across Jamaica.">
     <title>Projects | JCDA</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/jcda-logo.png" type="image/png">
 </head>
 
 <body class="projects-page">
@@ -186,28 +187,36 @@
                     <div class="heading-underline"></div>
                 </div>
 
+                <div class="project-filter-list" aria-label="Filter project gallery">
+                    <button class="project-filter-btn active" type="button" data-category="all">All</button>
+                    <button class="project-filter-btn" type="button" data-category="education">Education</button>
+                    <button class="project-filter-btn" type="button" data-category="youth">Youth</button>
+                    <button class="project-filter-btn" type="button" data-category="environment">Environment</button>
+                    <button class="project-filter-btn" type="button" data-category="outreach">Outreach</button>
+                </div>
+
                 <div class="project-gallery-list">
-                    <figure tabindex="0"><img src="images/community-painting.jpg" alt="Centre renovation">
+                    <figure tabindex="0" data-category="outreach"><img src="images/community-painting.jpg" alt="Centre renovation">
                         <figcaption><strong>Riverton Meadows Community Centre Upgrade</strong><span>Better rooms,
                                 bathrooms, accessibility, and a small computer lab.</span></figcaption>
                     </figure>
-                    <figure tabindex="0"><img src="images/youth-training.jpg" alt="Youth training">
+                    <figure tabindex="0" data-category="youth"><img src="images/youth-training.jpg" alt="Youth training">
                         <figcaption><strong>Spanish Town Youth Skills Pathway</strong><span>Job, digital, interview, and
                                 business skills for young people.</span></figcaption>
                     </figure>
-                    <figure tabindex="0"><img src="images/coastal-cleanup.jpg" alt="Water resilience">
+                    <figure tabindex="0" data-category="environment"><img src="images/coastal-cleanup.jpg" alt="Water resilience">
                         <figcaption><strong>Portmore Water Resilience Project</strong><span>Rainwater tanks and
                                 water-saving systems for schools and facilities.</span></figcaption>
                     </figure>
-                    <figure tabindex="0"><img src="images/school-library.jpg" alt="Digital learning hub">
+                    <figure tabindex="0" data-category="education"><img src="images/school-library.jpg" alt="Digital learning hub">
                         <figcaption><strong>Trench Town Learning and Digital Hub</strong><span>Homework, reading,
                                 computer access, and digital-skills support.</span></figcaption>
                     </figure>
-                    <figure tabindex="0"><img src="images/tree-planting.jpg" alt="Tree planting">
+                    <figure tabindex="0" data-category="environment"><img src="images/tree-planting.jpg" alt="Tree planting">
                         <figcaption><strong>Cockpit Country Green Communities Initiative</strong><span>Tree planting and
                                 watershed protection with local schools and residents.</span></figcaption>
                     </figure>
-                    <figure tabindex="0"><img src="images/beach-cleanup-jm.jpg" alt="Coastal restoration">
+                    <figure tabindex="0" data-category="environment"><img src="images/beach-cleanup-jm.jpg" alt="Coastal restoration">
                         <figcaption><strong>Hellshire Coastal Restoration Project</strong><span>Coastal clean-ups,
                                 mangrove restoration, education, and monitoring.</span></figcaption>
                     </figure>
@@ -266,9 +275,8 @@
             <div class="footer-items">
                 <h2>About JCDA</h2>
                 <p>Dedicated to building strong communities across Jamaica.</p>
-                <div class="social-links"><a href="https://www.facebook.com/" target="_blank"
-                        rel="noopener noreferrer"><img src="images/icons/Facebook.png" alt="Facebook"></a><a
-                        href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img
+                <div class="social-links"><a
+                        href="https://www.instagram.com/jcda_project/" target="_blank" rel="noopener noreferrer" aria-label="JCDA Instagram page"><img
                             src="images/icons/Instagram Circle.png" alt="Instagram"></a></div>
             </div>
             <div class="footer-items">
@@ -294,15 +302,15 @@
                 <h2>Newsletter</h2>
                 <p>Subscribe to our newsletter.</p>
                 <form class="newsletter-form"><label for="newsletter-email" class="screen-filter">Email
-                        address</label><input type="email" id="newsletter-email" placeholder="Enter your email"
-                        required><button type="submit" class="subscribe-btn">Subscribe</button></form>
+                        address</label><input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email"
+                        required><button type="submit" class="subscribe-btn">Subscribe</button><p class="form-feedback" aria-live="polite"></p></form>
             </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 Jamaica Community Development Association. All rights reserved.</p>
         </div>
     </footer>
-    <script src="js/script.js?v=2"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

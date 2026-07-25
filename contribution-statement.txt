@@ -1,0 +1,41 @@
+ITT208 JCDA Website — Contribution Statement
+
+Student 1: Tyrese Morgan
+Student ID: 20253308
+
+Planning and Project Coordination
+
+My partner and I reviewed the major project requirements and created a plan of action for completing the website. We discussed the website structure, identified the required pages and features, and divided the responsibilities according to our individual strengths. I was initially responsible for deploying the website and creating the Home and Events pages. I later also took responsibility for developing the Projects page.
+
+Design
+
+I used Figma to assist with designing the JCDA logo and other visual elements. I gathered design references and resources from PNGTree, Icons8, Pinterest, and other sources. I used these resources to guide the selection of icons, graphical elements, Jamaican-themed images, colours, typography, spacing, and layouts. I also made sure that the Home, Events, and Projects pages followed a consistent visual style.
+
+Development
+
+I created the HTML structure and added the required content for the Home, Events, and Projects pages. I applied the relevant CSS styling and connected the pages through the website navigation. I also developed and styled shared cards, hero sections, impact sections, calls to action, and footer components. I prepared and deployed the completed website so it could be accessed online.
+
+Testing
+
+I used Playwright and browser testing to confirm that the pages loaded successfully and returned successful HTTP responses. I also reviewed the navigation, responsiveness, page layout, broken links, images, and overall consistency. My partner and I identified and corrected issues before the final submission.
+
+
+Student 2: Osha Newman
+Student ID: 20254370
+
+Planning and Collaboration
+
+My partner and I discussed the purpose of the website, its required features, and the project plan. I contributed to decisions about the website structure, content, and overall presentation throughout the project.
+
+Design and Development
+
+I helped build the website using HTML and CSS. I contributed to the page layouts, written content, image placement, navigation links, and styling. My partner and I worked together to maintain a consistent visual appearance across the website and its components.
+
+Testing and Quality Review
+
+I tested the website using Live Server and checked the navigation links for errors. I reviewed the pages for layout and functionality issues, helped make adjustments after testing, and contributed to improving the website’s presentation and consistency.
+
+
+Shared Final Review
+
+My partner and I reviewed the completed website against the project requirements. Together, we checked the pages, links, features, file organization, and supporting documents before preparing the final submission.
