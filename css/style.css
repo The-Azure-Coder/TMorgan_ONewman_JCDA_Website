@@ -64,8 +64,8 @@ ul {
 .header-bg {
     position: relative;
     width: 100%;
-    min-height: 650px;
-    background-image: url('../images/home_banner_img.png');
+    min-height: 560px;
+    background-image: url('../images/climate-agriculture.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ ul {
     z-index: 3;
     width: 88%;
     max-width: 1180px;
-    min-height: 650px;
+    min-height: 560px;
     margin: 0 auto;
 }
 
@@ -1073,13 +1073,13 @@ ul {
 
 /* projects page styles */
 .projects-header-bg {
-    min-height: 390px;
-    background-image: url('../images/home_banner_img.png');
+    min-height: 560px;
+    background-image: url('../images/palenque-tour.jpg');
     background-position: center;
 }
 
 .projects-header-bg .hero-content {
-    min-height: 390px;
+    min-height: 560px;
 }
 
 .projects-hero {
@@ -1140,15 +1140,15 @@ ul {
     gap: 28px;
 }
 
-.projects-nav > a:not(.donate-btn) {
+.projects-nav>a:not(.donate-btn) {
     color: var(--text-dark);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.projects-nav > a:not(.donate-btn):hover,
-.projects-nav > a.active {
+.projects-nav>a:not(.donate-btn):hover,
+.projects-nav>a.active {
     color: var(--gold-dark);
 }
 
@@ -1424,7 +1424,7 @@ ul {
     gap: 12px;
 }
 
-.project-cta-content > img {
+.project-cta-content>img {
     width: 34px;
     height: 34px;
     padding: 6px;
@@ -1454,6 +1454,7 @@ ul {
 }
 
 @media (max-width: 768px) {
+
     .projects-header-bg,
     .projects-header-bg .hero-content {
         min-height: 560px;
@@ -1589,8 +1590,8 @@ ul {
 }
 
 .events-header-bg {
-    min-height: 610px;
-    background-image: url('../images/event_header_bg.jpg');
+    min-height: 560px;
+    background-image: url('../images/coastal-cleanup.jpg');
 }
 
 .events-hero {
